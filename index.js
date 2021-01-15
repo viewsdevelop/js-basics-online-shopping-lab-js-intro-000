@@ -54,6 +54,7 @@ function removeFromCart(item) {
   if (cart.includes(item)) {
     // delete cart[cart.indexOf(item)];
     // return cart;
+    alert("HEY!")
   } else {
     return "That item is not in your cart.";
   }
