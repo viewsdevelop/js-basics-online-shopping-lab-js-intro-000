@@ -51,11 +51,11 @@ function total() {
 }
 
 function removeFromCart(item) {
-  if (cart.includes()) {
+  if (cart.includes(item)) {
     // delete cart[cart.indexOf(item)];
-    return "TEST";
-  // } else {
-  //   return "That item is not in your cart.";
+    return "cart";
+  } else {
+    return "That item is not in your cart.";
   }
 }
 
