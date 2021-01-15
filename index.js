@@ -52,9 +52,7 @@ function total() {
 
 function removeFromCart(item) {
   if (cart.includes(item)) {
-    cart.push("HEY");
-    cart.push("HEY");
-    cart.push("HEY");
+    var cart = [];
     return cart;
   } else {
     return "That item is not in your cart.";
