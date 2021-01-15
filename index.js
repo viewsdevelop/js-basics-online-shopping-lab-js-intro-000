@@ -51,7 +51,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  if (cart.includes(item)) {
+  if (cart.includes(item.itemName)) {
     // var cart = [];
     return cart;
   } else {
