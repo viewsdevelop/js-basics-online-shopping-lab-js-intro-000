@@ -52,8 +52,8 @@ function total() {
 
 function removeFromCart(item) {
   if (cart.includes(item)) {
-    var cart = []
-    // return cart;
+    var cart = [];
+    return cart;
   } else {
     return "That item is not in your cart.";
   }
